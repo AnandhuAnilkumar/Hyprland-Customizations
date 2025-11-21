@@ -423,7 +423,50 @@
       "",
       "",
       ""
-    ],
-    "scroll-step": 1
+    ], "scroll-step": 1
+  },
+
+
+//Custom Google group
+
+  "custom/googleicon": {
+    "format": " ",
+    "tooltip": false
+  },
+
+  "custom/classroom": {
+    "format": " ",
+    "tooltip-format" : "Google Classroom",
+    "on-click": "firefox --new-window https://classroom.google.com/u/1/?pli=1"
+  },
+  
+  "custom/gmail": {
+    "format": " ",
+    "tooltip-format" : "Gmail",
+    "on-click": "firefox --new-window https://mail.google.com/mail/u/1/#inbox"
+  },
+
+  "custom/gmeet": {
+    "format": " ",
+    "tooltip-format" : "Google Meet",
+    "on-click": "firefox --new-window https://meet.google.com/landing?authuser=1"
+  },
+
+ "group/google": {
+    "orientation": "inherit",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "not-memory",
+      "transition-left-to-right": true
+    },
+    "modules": [
+      "custom/googleicon",
+      "custom/gmail",
+      "custom/classroom",
+      "custom/gmeet"
+    ]
   }
+
+
+
 }
