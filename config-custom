@@ -15,6 +15,7 @@
     "modules-left": [
         "custom/appmenu",
         "group/links",
+        "group/google",
         "hyprland/workspaces",
         "wlr/taskbar",
         //"group/quicklinks",
