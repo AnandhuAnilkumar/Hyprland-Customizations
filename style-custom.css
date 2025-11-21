@@ -594,3 +594,50 @@ window#waybar.empty #window {
 }
 
 
+
+#custom-googleicon {
+    
+    margin-right: 5px;
+    background-image: url("../assets/googleicon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 21px;
+   
+}
+
+#custom-gmail {
+    
+    margin-left: 10px;
+    margin-right: 15px;
+    background-image: url("../assets/gmail.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 20px;
+   
+}
+
+
+#custom-classroom {
+    
+    margin-right: 15px;
+    background-image: url("../assets/classroom.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 20px;
+   
+}
+
+
+#custom-gmeet {
+    
+    margin-right: 15px;
+    background-image: url("../assets/gmeet.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 20px;
+   
+}
